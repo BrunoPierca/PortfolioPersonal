@@ -1,0 +1,284 @@
+/* .landingtext {
+  text-align: center;
+}
+.landing {
+  margin: 0px !important;
+} */
+.p0 {
+  padding: 0px !important;
+}
+.m0 {
+  margin: 0px !important;
+}
+.header {
+  padding: 13px 5px !important;
+}
+
+header h1 {
+  font-size: 30px !important;
+  line-height: 30px;
+  color: white;
+}
+.redes {
+  padding: 0px !important;
+  text-align: right;
+  font-size: x-large;
+}
+
+.fa-whatsapp::after {
+  content: " ";
+}
+
+.ulPrincipal {
+  padding: 0px !important;
+}
+
+.navPrincipal {
+  padding: 0px !important;
+}
+.nav-item {
+  background-color: #3f3f3f;
+  margin: 0px 2px;
+  padding: 0px !important;
+  /* border: black 1px solid; */
+}
+.nav-link {
+  color: black !important;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+section.hero {
+  background-image: url(../media/mensajeroherocortada.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+@media screen and (min-width: 460px) and (max-width: 600px) {
+  section.hero {
+    background-image: url(../media/mensajerohero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+@media screen and (max-width: 460px) {
+  section.hero {
+    background-color: #202020;
+    background-image: none;
+  }
+}
+.jumbotron {
+  background-color: rgba(112, 112, 112, 0.85);
+  padding: 40px 30px !important;
+}
+.jumbotron p {
+  color: #202020;
+  font-weight: 500;
+}
+.ctawpp {
+  background-color: #4dca5c !important;
+  /* border: 2px solid #202020 !important; */
+  border: none !important;
+  color: #202020 !important;
+  font-weight: 600 !important;
+  padding: 4px 9px !important;
+}
+.ctawpp i {
+  color: #202020;
+  font-weight: 600;
+}
+
+section.servicios {
+  background-color: #3f3f3f;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+.servicios h1 {
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  color: white;
+}
+.servicios span {
+  color: slategrey;
+}
+.servicios p {
+  text-align: center;
+  color: darkgrey;
+  line-height: 45px;
+}
+
+div.card {
+  border: none !important;
+}
+h4.card-title {
+  color: white;
+}
+@media screen and (min-width: 575px) {
+  div.radiusleft {
+    border-bottom-left-radius: 0.25rem !important;
+    border-top-left-radius: 0.25rem !important;
+  }
+  div.radiusright {
+    border-top-right-radius: 0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important;
+  }
+}
+@media screen and (max-width: 575px) {
+  div.radiusleft {
+    border-top-right-radius: 0.25rem !important;
+    border-top-left-radius: 0.25rem !important;
+  }
+  div.radiusright {
+    border-bottom-left-radius: 0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important;
+  }
+}
+
+.servicios h2 {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  color: darkgrey;
+}
+i.servicios {
+  font-size: 120px;
+  color: white;
+}
+.nosotrosdiv h2 {
+  color: white;
+}
+.nosotrosdiv p {
+  color: darkgrey;
+  line-height: 45px;
+  padding: 0px 45px;
+}
+.nosotrospic {
+  background-image: url(../media/nosotros.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
+@media screen and (max-width: 570px) {
+  .nosotrosdiv {
+    width: 100vw !important;
+    position: relative !important;
+  }
+  .nosotrosdiv p {
+    color: darkgrey;
+    line-height: 25px;
+    padding: 0px 20px;
+  }
+  .nosotrospic {
+    background-image: url(../media/nosotros.jpg);
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100% !important;
+  }
+}
+.contacto {
+  background-color: #3f3f3f;
+  padding: 30px 0px;
+}
+.contacto h2 {
+  text-align: center;
+  color: white;
+}
+.contacto p {
+  color: darkgrey;
+}
+.enviar {
+  width: 100%;
+  color: darkgrey !important;
+  border: 1px solid darkgrey !important;
+}
+.enviar:hover {
+  color: #fff !important;
+  background-color: #3f3f3f !important;
+  border-color: #202020 !important;
+}
+.form-group {
+  background-color: black;
+  color: darkgrey;
+  padding: 10px;
+}
+footer p {
+  color: white;
+}
+footer .redes {
+  white-space: nowrap;
+}
+
+.redes i {
+  color: darkgrey;
+}
+
+footer div.header {
+  padding-bottom: 0px !important;
+}
+
+/* Contacto php */
+.contenedorcontacto {
+  background-color: #3f3f3f;
+  border-radius: 15px;
+}
+h3 {
+  background-color: #202020;
+  color: #fff;
+  border-radius: 25px;
+  padding: 2px;
+}
+h3 strong {
+  color: #fff !important;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+.titulocontacto {
+  color: black;
+}
+.pcontacto {
+  color: black;
+}
+/* COTIZADOR */
+.background3f {
+  background-color: #3f3f3f;
+}
+.cotizador {
+  /* height: 550px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* position: absolute; */
+}
+.mapa {
+  padding: 5px;
+  height: 420px;
+}
+
+.mapa h1 {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 25%;
+}
+.mapa p {
+  color: white;
+  font-weight: bolder;
+  position: relative;
+  top: 25%;
+  text-align: center;
+  font-size: 150px;
+  padding-bottom: 25%;
+}
+/* div#map {
+  width: 900px !important;
+  height: 800px !important;
+} */

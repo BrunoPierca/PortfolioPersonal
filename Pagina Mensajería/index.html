@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logística MotoDinamic</title>
+    <link rel="stylesheet" href="css/estilosB.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/553027483b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+<!-- Header -->
+  <header>
+    <div class="container-fluid row header bg-dark m0">
+      <h1 class="col-10 lead"><strong>MotoDinamic</strong></h1>
+        <div class="col-2 redes align-bottom">
+        <a href="https://api.whatsapp.com/send/?phone=541131538093&text&app_absent=0"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/motodinamic/"><i class="fab fa-instagram"></i></a>
+      </div>  
+    </div>    
+  </header>
+
+<!-- Nav -->
+
+<nav class="container-fluid navPrincipal">
+<ul class="ulPrincipal bg-dark nav nav-pills nav-fill container-fluid">
+  <li class="nav-item">
+    <a class="nav-link" href="#nosotros">¿Quienes somos?</a>
+  </li>
+  <li class="nav-item ">
+    <a class="nav-link" href="cotizador.html">Cotizador de viajes</a>
+  </li>
+  <li class="nav-item ">
+    <a class="nav-link" href="#contacto">Contacto</a>
+  </li>
+</ul>
+</nav>
+
+<!-- Hero Jumbotron  -->
+
+<section class="hero container-fluid">
+  <div class="jumbotron shadow-lg container">
+    <h1 class="display-3">Estas tan solo a 1 click</h1>
+    <p class="lead">Ofrecemos una solucion logistica a medida de cada necesidad. Ya sea para una pyme o para emprendimientos, tenemos el servicio que necesitas. </p>
+    <hr class="my-2">
+    <p>Tambien contamos con un cotizador online para envios particulares</p>
+    <p class="lead">
+      <a class="ctawpp btn btn-primary btn-lg" href="https://api.whatsapp.com/send/?phone=541131538093&text&app_absent=0" role="button"> <i class="fab fa-whatsapp"></i> Escribinos</a>
+    </p>
+  </div>
+  </section>
+
+<!-- Servicios -->
+
+  <section class="servicios container-fluid">
+    <h1 class="blockquote">Mensajería <span>MotoDinamic</span></h1>
+    <p class="lead">Podes contar con nosotros para mas que solamente ir de punto A a punto B</p>
+
+    <h2 class="servicios">Nuestras operaciones incluyen</h2>
+
+    <div class="card-group">
+      <div class="card bg-dark radiusleft">
+        <div class="card-body bg-dark radiusleft">
+          <h4 class="text-center card-title">Mensajeria empresarial</h4>
+          <br>
+          <p class="card-text"><i class="servicios fas fa-briefcase"></i></p>
+        </div>
+      </div>
+      <div class="card bg-dark">
+        <div class="card-body bg-dark">
+          <h4 class="text-center card-title">Cobranzas</h4>
+          <br>
+          <p class="card-text"><i class="servicios fas fa-money-check-alt"></i></p>
+        </div>
+      </div>
+      <div class="card bg-dark radiusright">
+        <div class="card-body bg-dark radiusright">
+          <h4 class="text-center card-title">Tramites DNRPA</h4> <br>
+          <p class="card-text"><i class="servicios fas fa-clipboard-check"></i></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nosotros -->
+
+  <section id="nosotros" class="nosotros container-fluid">
+    <div class="p0 row">
+    <div class="col-6 nosotrosdiv bg-dark">
+      <br>
+      <h2 class="servicios">¿Quienes somos?</h2>
+      <br>
+      <br>
+      <p class="lead">MotoDinamic es una empresa que ofrece servicios de mensajeria en moto y cadeteria en la Ciudad de Buenos Aires y GBA Norte <br>  
+        Nuestro equipo de mensajeros está conformado por profesionales con una amplia experiencia en el rubro, lo cual determina un servicio ágil y responsable.</p>
+    </div>
+    <div class="col-6 nosotrospic"></div>
+  </div>
+  </section>
+
+<!-- Contacto -->
+
+  <section id="contacto" class="contacto contactcontainer-fluid"> <h2>¿Aún tenes dudas? <p class="lead">Te escuchamos</p></h2>
+  <div class="container">
+    <form method="POST" target="_blank" action="enviardatos.php">
+      <div class="form-group bg-dark rounded-top">
+        <label for="nombre">Nombre o empresa</label>
+        <input name="nombre" type="text" required class="form-control" id="inputNombre" placeholder="...">
+      </div>
+      <!--  -->
+      <div class="form-group bg-dark">
+        <label for="telefono">Telefono</label>
+        <input name="telefono" type="tel" required class="form-control" id="inputTel" placeholder="11 4569 8760">
+      </div>
+      <!--  -->
+      <div class="form-group bg-dark rounded-bottom">
+        <label for="email">Email</label>
+        <input name="email" type="email" required class="form-control" id="formGroupExampleInput" placeholder="email@ejemplo.com">
+        <br>
+        <input class="enviar btn btn-outline-primary" type="submit" value="Enviar">
+
+      </div>
+    </form>
+  </div>
+  </section>
+  
+
+  </body>
+
+  <!-- Footer -->
+
+  <footer class="container-fluid bg-dark">
+    <div class="container-fluid row header">
+      <h2 class="col-10"><p class="lead">© Mensajería <strong>MotoDinamic</strong> 2021</p> </h1>
+        <div class="col-2 redes">
+        <a href="https://api.whatsapp.com/send/?phone=541131538093&text&app_absent=0"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/motodinamic/"><i class="fab fa-instagram"></i></a>
+      </div> 
+    </div>  
+  </footer>
