@@ -6,8 +6,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Mis reglas */
-
 html {
   scroll-behavior: smooth !important;
 }
@@ -174,7 +172,7 @@ body {
   -ms-overflow-style: scrollbar;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width:360px) and (max-width: 480px) {
   html,
   body {
     min-width: 320px;
@@ -243,6 +241,10 @@ textarea {
   select,
   textarea {
     font-size: 9pt;
+  }
+
+  .features article{
+    align-items:center !important;
   }
 }
 
@@ -2685,7 +2687,8 @@ button:disabled,
   -webkit-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   transition: margin-left 0.5s ease, box-shadow 0.5s ease;
-  background-color: #f5f6f7;
+  background-color: #f7e7ce;
+  /* background-color: #6C757D; */
   font-size: 0.9em;
   position: relative;
   width: 26em;
@@ -3094,7 +3097,7 @@ button:disabled,
 }
 #menu > ul > li > ul a,
 #menu > ul > li > ul span {
-  font-size: 0.8em;
+  font-size: 1.2em;
 }
 #menu > ul > li > ul > li {
   margin: 0.125em 0 0 0;
@@ -3144,4 +3147,9 @@ footer{
 
 #socialIcons{
   color: rgb(0, 0, 0);
+}
+
+
+.comingSoon:hover{
+  cursor: not-allowed
 }
